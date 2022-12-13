@@ -1,0 +1,17 @@
+[03-Aug-2022 18:23:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pagosemprender/public_html/guacamolazo/billing/index.php:1) in /home/pagosemprender/public_html/guacamolazo/billing/index.php on line 4
+[03-Aug-2022 18:23:52 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/pagosemprender/public_html/guacamolazo/db_connect.php:2
+Stack trace:
+#0 /home/pagosemprender/public_html/guacamolazo/billing/home.php(1): include()
+#1 /home/pagosemprender/public_html/guacamolazo/billing/index.php(79): include('/home/pagosempr...')
+#2 {main}
+  thrown in /home/pagosemprender/public_html/guacamolazo/db_connect.php on line 2
+[03-Aug-2022 18:25:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/pagosemprender/public_html/guacamolazo/billing/index.php:1) in /home/pagosemprender/public_html/guacamolazo/billing/index.php on line 4
+[03-Aug-2022 18:25:23 UTC] PHP Fatal error:  Uncaught Error: Class 'mysqli' not found in /home/pagosemprender/public_html/guacamolazo/db_connect.php:2
+Stack trace:
+#0 /home/pagosemprender/public_html/guacamolazo/billing/home.php(1): include()
+#1 /home/pagosemprender/public_html/guacamolazo/billing/index.php(79): include('/home/pagosempr...')
+#2 {main}
+  thrown in /home/pagosemprender/public_html/guacamolazo/db_connect.php on line 2
+[03-Aug-2022 18:32:15 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/pagosemprender/public_html/guacamolazo/billing/index.php on line 4
+[03-Aug-2022 18:32:15 UTC] PHP Warning:  Undefined variable $_SESSION in /home/pagosemprender/public_html/guacamolazo/billing/topbar1.php on line 31
+[03-Aug-2022 18:32:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/pagosemprender/public_html/guacamolazo/billing/topbar1.php on line 31
